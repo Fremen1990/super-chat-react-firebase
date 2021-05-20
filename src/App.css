@@ -66,7 +66,7 @@ form {
 }
 
 form button {
-  width: 20%;
+  width: 30%;
   background-color: rgb(56, 56, 143);
 }
 
@@ -105,6 +105,11 @@ button:disabled {
   margin: 0 auto;
 }
 
+/* .sign-out {
+
+  display: block;
+} */
+
 ul,
 li {
   text-align: left;
@@ -112,7 +117,7 @@ li {
 }
 
 p {
-  max-width: 500px;
+  max-width: 450px;
   margin-bottom: 12px;
   line-height: 24px;
   padding: 10px 20px;
@@ -135,10 +140,13 @@ p {
   color: white;
   background: #0b93f6;
   align-self: flex-end;
+  font-weight: bold;
 }
+
 .received p {
-  background: #e5e5ea;
+  background: orange;
   color: black;
+  font-weight: bold;
 }
 
 img {
